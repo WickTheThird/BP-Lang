@@ -1,0 +1,9 @@
+begin
+	at := true;
+	af := false;
+	ort := at | af;
+	andt := ort & at;
+	negt := ~ af;
+	write(andt);
+	write(negt);
+end
